@@ -4,7 +4,7 @@ Official Website of the Stellar Labs Team.
 :satellite: : a broadband connection is needed to perform this action.
 ## Requirements
 - [Node.js](https://nodejs.org/en/)
-- [Yarn](Package Manager)
+- [Yarn](https://yarnpkg.com/lang/en/)
 - [Git](https://git-scm.com/)
 
 ## Download :satellite:
