@@ -8,6 +8,15 @@ export default env => {
       filename: 'javascript/index.js',
       path: __dirname + '/docs/'
     },
+    module: {
+      rules: [
+        {
+          test: /\.js$/,
+          exclude: /node_modules/,
+          loader: 'babel-loader'
+        }
+      ]
+    },
     plugins: [
       new HtmlWebpackPlugin({
         template: __dirname + '/sources/index.html',
