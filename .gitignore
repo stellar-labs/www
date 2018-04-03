@@ -1,0 +1,9 @@
+*
+!.gitignore
+!LICENSE
+!package.json
+!README.md
+!yarn.lock
+!webpack.config.babel.js
+!.babelrc
+!sources
