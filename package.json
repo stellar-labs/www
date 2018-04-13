@@ -1,6 +1,6 @@
 {
   "name": "www",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": "git@github.com:stellar-labs/www",
   "author": "Amin NAIRI <nairi.amin@gmail.com>",
