@@ -10,8 +10,8 @@ export default env => {
     ...mode(env),
     entry,
     output,
+    ...plugins(env),
     module,
-    plugins,
     devServer
   }
 }
