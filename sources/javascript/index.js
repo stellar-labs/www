@@ -7,4 +7,5 @@ window.addEventListener('load', () => {
     router,
     render: h => h(App)
   })
+  M.AutoInit()
 })
