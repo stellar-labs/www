@@ -1,2 +1,2 @@
 'use strict'
-export default __dirname + '/../../docs/'
+export default __dirname + '/../../public/'
