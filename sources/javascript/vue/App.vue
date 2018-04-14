@@ -1,15 +1,15 @@
 <template>
   <div>
     <materialize-menu-links close-on-click>
-      <materialize-menu-link icon='home'>Home</materialize-menu-link>
-      <materialize-menu-link to='/about' icon='info'>About</materialize-menu-link>
+      <materialize-menu-link icon='home' text='Home' />
+      <materialize-menu-link to='/about' icon='info' text='About' />
     </materialize-menu-links>
     <materialize-header>
       <materialize-header-title>Stellar Labs</materialize-header-title>
       <materialize-menu-trigger />
       <materialize-header-links>
-        <materialize-header-link icon='home'>Home</materialize-header-link>
-        <materialize-header-link to='/about' icon='info'>About</materialize-header-link>
+        <materialize-header-link icon='home' text='Home'/>
+        <materialize-header-link to='/about' icon='info' text='About'/>
       </materialize-header-links>
     </materialize-header>
     <main>
