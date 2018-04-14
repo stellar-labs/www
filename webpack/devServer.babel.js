@@ -1,7 +1,7 @@
 'use strict'
 export default {
   inline: true,
-  contentBase: __dirname + '/docs/',
+  contentBase: __dirname + '/../public/',
   watchContentBase: true,
   historyApiFallback: {
     rewrites: [
