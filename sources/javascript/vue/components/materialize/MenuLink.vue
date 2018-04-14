@@ -2,9 +2,7 @@
   <li>
     <router-link :to='to'>
       <i v-if='icon' v-text='icon' class='material-icons left'></i>
-      <span>
-        <slot/>
-      </span>
+      <span v-if='text' v-text='text' />
     </router-link>
   </li>
 </template>
@@ -15,6 +13,14 @@ export default {
     to: {
       type: String,
       default: '/'
+    },
+    icon: {
+      type: String,
+      default: undefined
+    },
+    text: {
+      type: String,
+      default: undefined
     }
   },
   data() {
