@@ -17,6 +17,25 @@ Fetchs the dependencies.
 ```shell
 $ yarn install
 ```
+## Linting
+Configure the linter for JavaScript & Vue files.
+### ESLint
+```shell
+$ yarn lint:init
+```
+### ESLint Plugin Vue
+Open the `.eslintrc.*` file and update it accordingly.
+```javascript
+'use strict'
+module.exports = {
+    //...
+    "extends": [ // extends property now contains an array of strings
+      "eslint:recommended",
+      "plugin:vue/essential" // this is the added line
+    ],
+    //...
+};
+```
 ## Serve
 Simulates a local website.
 ### Development
