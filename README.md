@@ -38,25 +38,11 @@ module.exports = {
 ```
 ## Serve
 Simulates a local website.
-### Development
-Development server, configurations & build files.
 ```shell
-$ yarn serve:dev
-```
-### Production
-Production server, configurations & build files.
-```shell
-$ yarn serve:prod
+$ yarn start
 ```
 ## Build
 Final HTML, CSS and JavaScript files ready for deployment.
-### Development
-Development configurations & build files.
 ```shell
-$ yarn dev
-```
-### Production
-Production configurations & build files.
-```shell
-$ yarn prod
+$ yarn build
 ```
