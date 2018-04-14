@@ -1,5 +1,6 @@
 'use strict'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
+import CopyWebpackPlugin from 'copy-webpack-plugin'
 export default env => {
   return {
     plugins: [
@@ -39,7 +40,10 @@ export default env => {
           useShortDoctype: false
         },
         cache: true
-      })
-    ]
+      }),
+      new CopyWebpackPlugin([
+        __dirname + '/../sources/.htaccess'
+      ])
+    ],
   }
 }
